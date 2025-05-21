@@ -1,6 +1,6 @@
 import { menu_list } from "../assets/assets.js";
-import "../Style/exploremenu.css";
-export const ExploreMenu = ({ category, setCategory }) => {
+import "../Style/menucart.css";
+export const MenuCart = ({ category, setCategory }) => {
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Explore Our Menu</h1>
