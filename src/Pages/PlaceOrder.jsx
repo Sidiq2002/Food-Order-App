@@ -43,7 +43,7 @@ export const PlaceOrder = () => {
               <hr />
               <div className="cart-total-details">
                 <p>Delivery Free</p>
-                <p>${getTotalCartAmount() === 0 ? 0 : deliveryFee}</p>
+                <p>${getTotalCartAmount() === 0 ? 0 : "deliveryFee"}</p>
               </div>
               <hr />
               <div className="cart-total-details">
@@ -52,7 +52,7 @@ export const PlaceOrder = () => {
                   $
                   {getTotalCartAmount() === 0
                     ? 0
-                    : getTotalCartAmount() + deliveryFee}
+                    : getTotalCartAmount() + "deliveryFee"}
                 </b>
               </div>
             </div>
