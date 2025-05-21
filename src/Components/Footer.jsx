@@ -39,7 +39,7 @@ export const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+1-123-456-7890</li>
+            <li>+91-123-456-7890</li>
             <li>contact@Fooddy.com</li>
           </ul>
         </div>
