@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { AppDownload } from "../Components/AppDownload";
-import { Exploremenu } from "../Components/Exploremenu";
 import { FoodDisplay } from "../Components/FoodDisplay";
 import { Header } from "../Components/Header";
+import { ExploreMenu } from "../Components/Exploremenu";
 
 export const Home = () => {
   const [category, setCategory] = useState("All");
@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      <Exploremenu category={category} setCategory={setCategory} />
+      <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay category={category} />
       <AppDownload />
     </div>
