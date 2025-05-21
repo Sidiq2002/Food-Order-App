@@ -40,5 +40,5 @@ export const Fooditem = ({ id, name, price, description, image }) => {
         <p className="food-item-price">${price}</p>
       </div>
     </div>
-  ); 
+  );
 };
